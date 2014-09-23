@@ -1,6 +1,6 @@
 #wrapper {
   width:95%;
-  max-wigth:1100px;
+  max-wigth:1200px;
   height:auto;
   margin-right:auto;
   margin-left:auto;
@@ -8,24 +8,25 @@
 
 
 header {
-	font-family: "Orange LET Plain";
-	font-size: 85px;
-    font-weight: 100;
+	font-family: "Arial Black";
+	font-size: 44px;
+    font-weight: 50;
 	color: #ccd1d1;
 	width:100%;
 	height:auto;
-  	min-height:312px;
+	min-height: 312px;
 	background-image: url("../bilder/Headbar.jpg");
 	float:left;
 	float:right;
 }
 
 #main-content {
-  width:1885px;
+  width:100%;
   height:auto;
   min-height:400px;
   float:left;
 }
+
 
 footer{
   clear:both;
