@@ -1,7 +1,7 @@
 #wrapper {
   width:95%;
   max-wigth:1200px;
-	min-width: 871px;
+  min-width: 871px;
   height:auto;
   margin-right:auto;
   margin-left:auto;
@@ -10,7 +10,7 @@
 #border {
   clear:both;
   width:100%;
-	min-width: 871px;
+  min-width: 871px;
   height:6px;
   background:#030303;  
 }
@@ -35,7 +35,7 @@ header {
 #border2 {
   clear:both;
   width:100%;
-	min-width: 871px;
+  min-width: 871px;
   height:6px;
   background:#030303;  
 }

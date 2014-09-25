@@ -24,9 +24,18 @@ header {
 	float:right;
 }
 
+nav {
+	font-size: 20px;
+	clear:both;
+	width:100%;
+	min-width: 871px;
+    height:30px;
+    background:#257a72;
+}
+
 #main-content {
   width:100%;
-	min-width: 871px;
+  min-width: 871px;
   height:auto;
   min-height:300px;
   float:left;
@@ -36,7 +45,7 @@ header {
 footer{
   clear:both;
   width:100%;
-	min-width: 871px;
+  min-width: 871px;
   height:50px;
   background:#257a72;  
 }
