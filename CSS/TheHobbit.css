@@ -1,10 +1,10 @@
 #wrapper {
-  width:95%;
-  max-wigth:1200px;
+  	width:95%;
+  	max-wigth:1200px;
 	min-width: 871px;
-  height:auto;
-  margin-right:auto;
-  margin-left:auto;
+	height:auto;
+  	margin-right:auto;
+  	margin-left:auto;
 }
 
 
@@ -14,6 +14,7 @@ header {
     font-weight: 50;
 	color: #ccd1d1;
 	width:100%;
+	margin: 0.5% 0;
 	min-width: 871px;
 	height:auto;
 	max-height: 290px;
@@ -22,6 +23,13 @@ header {
 	background-image: url("../bilder/TheHobbit-cover.jpg");
 	float:left;
 	float:right;
+	border-radius: 7px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+}
+
+header h1 {
+	margin-left: 2.5%;
 }
 
 nav {
@@ -29,23 +37,56 @@ nav {
 	clear:both;
 	width:100%;
 	min-width: 871px;
-    height:30px;
+    height:40px;
     background:#257a72;
+	border-radius: 7px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0 auto;	
+}
+
+nav ul li {
+	float: left;
+	display: inline;
+}
+
+
+a {
+	text-decoration: none;
+}
+
+nav a:link, nav a:visited {
+	color: #fff;
+	padding: 10px 20px;
+	display: inline-block;
+	/* Come back here to assign height */
+}
+
+nav a:hover, nav a:active, 
+nav .active a:link, nav .active a:visited {
+	background-color: #040404; 
 }
 
 #main-content {
-  width:100%;
-  min-width: 871px;
-  height:auto;
-  min-height:300px;
-  float:left;
+  	width:100%;
+  	min-width: 871px;
+  	height:auto;
+  	min-height:300px;
+  	float:left;
 }
 
 
 footer{
-  clear:both;
-  width:100%;
-  min-width: 871px;
-  height:50px;
-  background:#257a72;  
+  	clear:both;
+  	width:100%;
+  	min-width: 871px;
+	height:50px;
+  	background:#257a72;
+	 border-radius: 7px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
 }
