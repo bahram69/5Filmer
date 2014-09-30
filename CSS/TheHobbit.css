@@ -68,7 +68,9 @@ nav a:link, nav a:visited {
 
 nav a:hover, nav a:active, 
 nav .active a:link, nav .active a:visited {
-	background-color: #040404; 
+	background-color: #040404;
+	text-shadow: none;
+	
 }
 
 #main-content {
