@@ -1,10 +1,10 @@
 #wrapper {
-  width:95%;
-  max-wigth:1200px;
+    width:95%;
+    max-wigth:1200px;
 	min-width: 871px;
-  height:auto;
-  margin-right:auto;
-  margin-left:auto;
+    height:auto;
+    margin-right:auto;
+    margin-left:auto;
 }
 
 
@@ -25,18 +25,33 @@ header {
 }
 
 #main-content {
-  width:100%;
-	min-width: 871px;
-  height:auto;
-  min-height:300px;
-  float:left;
+
+    width:100%;
+    min-width: 871px;
+    height:auto;
+    min-height:320px;
+    
+    
+    
+    
+    
+}
+
+div.img{
+    align-content: center;
+    margin: 7px;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    display: inline-flex;
 }
 
 
+
+
 footer{
-  clear:both;
-  width:100%;
-	min-width: 871px;
-  height:50px;
-  background:#257a72;  
+    clear:both;
+    width:100%;
+    min-width: 871px;
+    height:50px;
+    background:#257a72;  
 }
