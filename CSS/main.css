@@ -85,10 +85,17 @@ nav .active a:link, nav .active a:visited {
 	margin-left: auto;
 }
 
-.img{
-    align-content: center;
+.img {
+	align-content: center;
     margin: 7px;
     display: inline-flex;
+	transition: 700ms;
+  	transform: translateZ(0px);
+  	box-shadow: 0px 0px 0px rgba(0,0,0,0);
+}
+.img:hover {
+	transform: translateZ(50px) rotate(-5deg);
+  	box-shadow: 0px 0px 10px rgba(0,0,0,8);
 }
 
 
