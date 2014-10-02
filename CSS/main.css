@@ -7,9 +7,9 @@
 }
 
 header {
-	font-family: "Arial Black";
+	font-family: "Quicksand";
 	font-size: 30px;
-    font-weight: 30;
+    font-weight: 10;
 	color: #ccd1d1;
 	margin:  0.5% 0;
 	width:100%;
@@ -30,7 +30,8 @@ header h1 {
 }
 
 nav {
-	font-size: 20px;
+	font-family: "Quicksand";
+	font-size: 16px;
 	clear:both;
 	width:100%;
 	min-width: 871px;
@@ -100,6 +101,7 @@ nav .active a:link, nav .active a:visited {
 
 
 footer{
+	font-family: "Quicksand";
     clear:both;
     width:100%;
     min-width: 871px;
