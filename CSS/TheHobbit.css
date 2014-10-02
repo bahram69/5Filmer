@@ -11,7 +11,7 @@
 header {
 	font-family: "Arial Black";
 	font-size: 30px;
-    font-weight: 50;
+    font-weight: 30;
 	color: #ccd1d1;
 	width:100%;
 	margin: 0.5% 0;
@@ -46,7 +46,7 @@ nav {
 
 nav ul {
 	list-style: none;
-	margin: 0 auto;	
+	margin-left: 0 auto;	
 }
 
 nav ul li {
@@ -63,15 +63,19 @@ nav a:link, nav a:visited {
 	color: #fff;
 	padding: 10px 20px;
 	display: inline-block;
-	/* Come back here to assign height */
+	height: 20px;
 }
 
 nav a:hover, nav a:active, 
 nav .active a:link, nav .active a:visited {
 	background-color: #040404;
 	text-shadow: none;
+	border-radius: 7px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
 	
 }
+
 
 #main-content {
   	width:100%;
