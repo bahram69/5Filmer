@@ -7,10 +7,10 @@
 }
 
 header {
-	font-family: "Quicksand";
+	font-family: 'Cabin Sketch', cursive;
 	font-size: 30px;
     font-weight: 30;
-	color: #1b1d1d;
+	color: black;
 	margin: 0.5% 0;
 	width:100%;
 	min-width: 871px;
@@ -26,11 +26,11 @@ header {
 }
 
 header h1 {
-	margin-left: 1%;
+	margin-left: 2.5%;
 }
 
 nav {
-	font-family: "Quicksand";
+	font-family: 'Maven Pro', sans-serif;
 	font-size: 16px;
 	clear:both;
 	width:100%;
@@ -74,8 +74,6 @@ nav .active a:link, nav .active a:visited {
 }
 
 
-}
-
 #main-content {
   	width:100%;
 	min-width: 871px;
@@ -86,7 +84,8 @@ nav .active a:link, nav .active a:visited {
 }
 
 footer {
-	font-family: "Quicksand";
+	font-family: 'Maven Pro', sans-serif;
+	color: #fff;
 	clear:both;
 	width:100%;
 	min-width: 871px;
